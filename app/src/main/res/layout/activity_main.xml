@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My Resume App"
+        android:textSize="24sp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/buttonEditResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Edit Resume" />
+
+    <!-- Education Layout -->
+    <LinearLayout
+        android:id="@+id/layoutEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Add your education-related views here -->
+    </LinearLayout>
+
+    <!-- Projects Layout -->
+    <LinearLayout
+        android:id="@+id/layoutProjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Add your project-related views here -->
+    </LinearLayout>
+
+    <!-- Certifications Layout -->
+    <LinearLayout
+        android:id="@+id/layoutCertifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Add your certification-related views here -->
+    </LinearLayout>
+
+    <!-- Hobbies Layout -->
+    <LinearLayout
+        android:id="@+id/layoutHobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Add your hobby-related views here -->
+    </LinearLayout>
+
+    <!-- Skills Layout -->
+    <LinearLayout
+        android:id="@+id/layoutSkills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Add your skill-related views here -->
+    </LinearLayout>
+
+
+
+
+    <!-- Edit Resume Button -->
+    <Button
+        android:id="@+id/btnEditResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_edit_resume" />
+
+
+</RelativeLayout>

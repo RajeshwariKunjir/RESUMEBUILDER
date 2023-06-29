@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ViewResumeActivity">
+
+    <TextView
+        android:id="@+id/textViewNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewNameLabel"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewNationalityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNameLabel"
+        android:layout_marginTop="16dp"
+        android:text="Nationality:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewNationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewName"
+        android:layout_toRightOf="@id/textViewNationalityLabel"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewAddressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNationalityLabel"
+        android:layout_marginTop="16dp"
+        android:text="Address:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNationality"
+        android:layout_toRightOf="@id/textViewAddressLabel"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewPhoneNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAddressLabel"
+        android:layout_marginTop="16dp"
+        android:text="Phone Number:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAddress"
+        android:layout_toRightOf="@id/textViewPhoneNumberLabel"
+        android:textSize="18sp" />
+
+</RelativeLayout>

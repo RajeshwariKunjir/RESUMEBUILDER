@@ -1,0 +1,29 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Your App Name</string>
+
+    <!-- Education -->
+    <string name="education_degree">Degree</string>
+    <string name="education_institution">Institution</string>
+    <string name="education_year">Year</string>
+
+    <!-- Projects -->
+    <string name="project_name">Project Name</string>
+    <string name="project_description">Project Description</string>
+
+    <!-- Certifications -->
+    <string name="certification_name">Certification Name</string>
+    <string name="certification_year">Certification Year</string>
+
+    <!-- Hobbies -->
+    <string name="hobby">Hobby</string>
+
+    <!-- Skills -->
+    <string name="skill">Skill</string>
+
+    <!-- Button text -->
+    <string name="buttonAnotherSave">Save Resume</string>
+
+    <!-- Button Text -->
+    <string name="btn_edit_resume">Edit Resume</string>
+</resources>

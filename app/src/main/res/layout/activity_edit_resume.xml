@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <!-- Nationality -->
+    <EditText
+        android:id="@+id/editTextNationality"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nationality"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <!-- Address -->
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Address"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <!-- Phone Number -->
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:maxLines="1" />
+
+    <!-- Education -->
+    <EditText
+        android:id="@+id/editTextEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Education"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="10" />
+
+    <!-- Projects -->
+    <EditText
+        android:id="@+id/editTextProjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Projects"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="10" />
+
+    <!-- Skills -->
+    <EditText
+        android:id="@+id/editTextSkills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skills"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="10" />
+
+    <!-- Hobbies -->
+    <EditText
+        android:id="@+id/editTextHobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hobbies"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="10" />
+
+    <!-- Certificates -->
+    <EditText
+        android:id="@+id/editTextCertificates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Certificates"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="10" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
