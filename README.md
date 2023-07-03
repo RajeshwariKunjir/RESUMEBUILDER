@@ -47,7 +47,7 @@ The Resume Builder App uses the following dependencies:
 
 ## Credits :clap:
 
-The Resume Builder App was developed by ANUJ PANDIT as a demonstration of Android app development skills. Feel free to use and modify the code for your own projects.
+The Resume Builder App was developed by RAJESHWARI KUNJIR as a demonstration of Android app development skills. Feel free to use and modify the code for your own projects.
 
 ## License :page_with_curl:
 
@@ -55,7 +55,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Get In Touch :envelope:
 
-If you have any questions, suggestions, or feedback, please feel free to contact ANUJ PANDIT at panditanuj193@gmail.com.
+If you have any questions, suggestions, or feedback, please feel free to contact RAJESHWARI KUNJIR at  me.rajeshwarikunjir@gmail.com.
 
 ## Emoji Key :key:
 
